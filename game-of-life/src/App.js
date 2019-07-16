@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 // Components
 import Rules from './components/rules';
-import Grid from './components/grid';
+import Interactive from './views/interactive';
 import About from './components/about';
 
 import './App.css';
@@ -12,7 +12,7 @@ function App() {
     <Fragment>
       <h1>Conway's Game of Life</h1>
       <div className="grid-container">
-        <Grid/>
+        <Interactive/>
       </div>
       <div className='rules-container'>
         <Rules/>
