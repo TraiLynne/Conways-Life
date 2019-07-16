@@ -31,7 +31,7 @@ Over the course of this week, students will work on creating their own applicati
 - [x] Fill in the `To Do` list with the MVP features listed below
 - [x] Fill in the `backlog` list with all the extra features listed below
 - [x] Share your board with the project manager that has been assigned to you. If you have not been assigned yet, reach out to your lead PM for guidance
-- [ ] Add your Trello URL to your project's README.md file. Commit the change, push it to your repository & submit a pull request
+- [x] Add your Trello URL to your project's README.md file. Commit the change, push it to your repository & submit a pull request
 
 
 ## MVP Features:
