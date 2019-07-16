@@ -14,6 +14,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // store definition
+const store = createStore(reducer);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
