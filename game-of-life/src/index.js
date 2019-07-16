@@ -15,8 +15,16 @@ import * as serviceWorker from './serviceWorker';
 
 // store definition
 const store = createStore(reducer);
+ const rootElement = document.getElementById('root');
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <Provider store={store}>
+        <Router>
+            <App/>
+        </Router>
+    </Provider>, 
+    rootElement
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
