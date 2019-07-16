@@ -15,7 +15,7 @@ import * as serviceWorker from './serviceWorker';
 
 // store definition
 const store = createStore(reducer);
- const rootElement = document.getElementById('root');
+const rootElement = document.getElementById('root');
 
 ReactDOM.render(
     <Provider store={store}>
