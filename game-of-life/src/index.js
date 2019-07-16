@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// Router Imports
+import { BrowserRouter as Router } from 'react-router-dom';
 
 // Redux Imports
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 
+// Internal Imports
+import reducer from './reducers';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
