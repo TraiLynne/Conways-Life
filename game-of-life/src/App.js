@@ -7,6 +7,7 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">
+      <h1>Conway's Game of Life</h1> 
       <LifeCanvas/>
       <Rules/>
       <About/>
