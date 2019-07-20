@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+.gen-info{
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+.game-container{
+  width: 66%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.button-container {
+  margin: 20px auto;
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rules-container {
+  width: 33%;
+  float: left;
+}
+
+.rules-container h2 {
+  text-align: center;
+}
+
+.about {
+  clear: both;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .game-container {
+    width: 100%;
+  }
+
+  .rules-container{
+    width: 100%;
+    float: clear;
+    margin: 0 auto;
+  }
+}
