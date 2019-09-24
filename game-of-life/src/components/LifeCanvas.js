@@ -144,14 +144,6 @@ export default class LifeCanvas extends Component {
     render() {
         return (
             <div className='game-container'>
-                <p className='gen-info'>Generation #: {this.state.generation}</p>
-
-                <canvas
-                    ref="canvas"
-                    width={375}
-                    height={375}
-                    onClick={e => this.getPosition(e)}
-                />
 
                 <div className="button-container">
                     <select onChange={this.selectPreset} defaultValue="none">
@@ -163,7 +155,7 @@ export default class LifeCanvas extends Component {
                         <option value="10CellRow">10 Cell Row</option>
                         <option value="lightWeightSpaceShip">Lightweight Spaceship</option>
                     </select>
-                    
+
                     <button onClick={() => this.oneStep()}>
                         Step
                     </button>
@@ -186,6 +178,15 @@ export default class LifeCanvas extends Component {
                         Clear Board
                     </button>
                 </div>
+                
+                <p className='gen-info'>Generation #: {this.state.generation}</p>
+
+                <canvas
+                    ref="canvas"
+                    width={375}
+                    height={375}
+                    onClick={e => this.getPosition(e)}
+                />
 
             </div>
         );

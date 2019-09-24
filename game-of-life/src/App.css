@@ -23,6 +23,11 @@ canvas {
   width: 375px;
   display: flex;
   justify-content: space-between;
+  align-content: center;
+}
+
+button {
+  height: 30px;
 }
 
 .rules-container {
